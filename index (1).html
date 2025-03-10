@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dress Shop</title>
+</head>
+
+<body class="font-serif">
+    <nav class="bg-red-600 w-full flex justify-between text-white p-4 shadow-lg fixed z-10 top-0 left-0">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold">Dress Shop</a>
+            <div class="flex space-x-8 text-lg font-semibold">
+                <a href="#" class="hover:text-orange-300 hover:text-xl">Home</a>
+                <a href="#shop" class="hover:text-orange-300 hover:text-xl">Shop</a>
+                <a href="#about" class="hover:text-orange-300 hover:text-xl">About</a>
+                <a href="#contact" class="hover:text-orange-300 hover:text-xl">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-cover bg-center bg-no-repeat text-black-700 h-screen flex flex-col justify-center items-center text-center mt-16" 
+    style="background-image: url('bg1.jpg');">
+    <h1 class="text-5xl font-bold mb-5 bg-white bg-opacity-50 px-4 py-2 rounded-lg">Welcome to Our Dress Shop</h1>
+    <p class="text-2xl mb-7 bg-white bg-opacity-50 px-4 py-2 rounded-lg">Find your perfect dress for every occasion.</p>
+    <a href="#shop" class="bg-white text-red-700 rounded-full shadow-lg py-3 px-6 border-4 border-orange-500 border-double">Explore Collection</a>
+    </section>
+
+    <section id="shop" class="bg-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-red-700 text-3xl mb-8 font-bold">Our Collection</h2>
+            <div class="grid grid-cols-3 gap-8 mx-5 text-red-800">
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="img1.jpg" alt="Elegant Dress" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Elegant Evening Dress</h3>
+                    <p>Rs.4999</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="img.jpg" alt="Casual Dress" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Casual Summer Dress</h3>
+                    <p>Rs.3999</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-lg">
+                    <img src="images.jpg" alt="Formal Dress" class="w-full h-55 object-cover rounded-lg">
+                    <h3 class="mt-2">Formal Office Dress</h3>
+                    <p>Rs.5999</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-gray-100 py-16 text-center">
+        <h2 class="text-red-700 text-3xl mb-8 font-bold">About Us</h2>
+        <p class="text-lg max-w-2xl mx-auto">We bring you the latest fashion trends with high-quality fabrics and unique designs. Our mission is to make every woman feel confident and beautiful.</p>
+    </section>
+
+    <section id="contact" class="bg-white py-16 text-center">
+        <h2 class="text-red-700 text-3xl mb-8 font-bold">Contact Us</h2>
+        <p class="text-lg">Email: contact@dressshop.com</p>
+        <p class="text-lg">Phone: +1 234 567 890</p>
+    </section>
+</body>
+</html>
